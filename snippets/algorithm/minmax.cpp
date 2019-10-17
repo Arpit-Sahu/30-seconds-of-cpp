@@ -19,6 +19,6 @@ int main() {
 
     // returns pair <-1, 10>
     auto minMax2 = std::minmax({-1, 3, 10, 0});
-    std::cout << "Min is " << minMax2.first <<
+    std::cout << "Mini is " << minMax2.first <<
                  " Max is " << minMax2.second << std::endl;
 }
