@@ -9,7 +9,7 @@
     auto minMaxPair = std::minmax_element(vec.begin(), vec.end()); 
     // returns pair <-1, 10>
     std::cout << "Min is " << *minMaxPair.first <<
-                 " Max is " << *minMaxPair.second << std::endl;
+                 "Max is " << *minMaxPair.second << std::endl;
 
 ```
 **[See Sample code](../snippets/algorithm/minmax_element.cpp)**
