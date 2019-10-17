@@ -8,7 +8,7 @@
 
     auto greatestIt = std::max_element(vec.begin(), vec.end()); 
     // prints 10
-    std::cout << "The greatest element is " << *greatestIt << '\n';
+    std::cout << "The greatest element is " << int *greatestIt << '\n';
 
 ```
 **[See Sample code](../snippets/algorithm/max_element.cpp)**
